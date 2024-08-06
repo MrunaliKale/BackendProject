@@ -38,7 +38,7 @@ public class Account {
 
 	private double balance;
 
-	private String Pin;
+	private long Pin;
 
 	@OneToOne(cascade = CascadeType.ALL)
 	private User user;

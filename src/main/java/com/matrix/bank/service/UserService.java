@@ -7,5 +7,5 @@ import com.matrix.bank.entity.User;
 @Service
 public interface UserService {
 public User registerUser(User user);
-public void Login(Login login);
+public String login(Login login);
 }
